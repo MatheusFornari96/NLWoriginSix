@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
+    <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,9 +16,29 @@
 
 <body>
     <header id="header">
-        <nav class="container">
+        <nav class="container show">
             <a class="logo" href="#">beauty<span>body</span>.</a>
-            <div class="menu">...</div>
+            <div class="menu">
+                <ul class="grid">
+                    <li>
+                        <a class="title" href="#home">Início</a>
+                    </li>
+                    <li>
+                        <a class="title" href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="title" href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="title" href="#testimonials">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a class="title" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>
     </header>
 
@@ -28,20 +49,29 @@
                     <img src="https://images.unsplash.com/photo-1610026470365-48d91e7ba1ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="Personal mulher auxiliando um aluno no exercício de flexão de braço" />
                 </div>
                 <div class="text">
-                    <h1>Melhor a sua saúde e o seu condicionamento físico</h1>
+                    <h2 class="title">
+                        Melhor a sua saúde e o seu condicionamento físico
+                    </h2>
                     <p>
                         Uma personal exclusiva em Cascavel, especializada em treinamentos funcionais com técnicas de lutas.
                     </p>
-                    <a class="button" href="https://api.whatsapp.com/send?phone=5545991361292&text=Ol%C3%A1%2C%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio!">Agendar um horário</a
+                    <a class="button" href="https://api.whatsapp.com/send?phone=5545998593067&text=Ol%C3%A1%2C%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio!">Agendar um horário</a
             >
           </div>
         </div>
       </section>
+
       <div class="divider-1"></div>
-      <section class="section">
-        <div class="container">outra section</div>
+
+      <section class="section" id="about">
+        <div class="container grid">Sobre</div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container grid">Serviços</div>
       </section>
     </main>
     <footer></footer>
+    <script src="main.js"></script>
   </body>
 </html>
