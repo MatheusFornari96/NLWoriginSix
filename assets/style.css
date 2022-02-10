@@ -1,75 +1,81 @@
 @font-face {
-    font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?5wr77d');
-    src: url('fonts/icomoon.eot?5wr77d#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?5wr77d') format('truetype'), url('fonts/icomoon.woff?5wr77d') format('woff'), url('fonts/icomoon.svg?5wr77d#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xrrmdx');
+  src:  url('fonts/icomoon.eot?xrrmdx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xrrmdx') format('truetype'),
+    url('fonts/icomoon.woff?xrrmdx') format('woff'),
+    url('fonts/icomoon.svg?xrrmdx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-exercise_fitness_gym_gymnasium_icon-1:before {
-    content: "\e900";
+.icon-dumbbell-gym-svgrepo-com:before {
+  content: "\e900";
 }
-
+.icon-man-dancing-svgrepo-com:before {
+  content: "\e910";
+}
+.icon-person-practicing-kickboxing-svgrepo-com:before {
+  content: "\e911";
+}
 .icon-close:before {
-    content: "\e901";
+  content: "\e901";
 }
-
 .icon-cosmetic:before {
-    content: "\e902";
+  content: "\e902";
 }
-
 .icon-facebook:before {
-    content: "\e903";
+  content: "\e903";
 }
-
 .icon-instagram:before {
-    content: "\e904";
+  content: "\e904";
 }
-
 .icon-mail:before {
-    content: "\e905";
+  content: "\e905";
 }
-
 .icon-map-pin:before {
-    content: "\e906";
+  content: "\e906";
 }
-
 .icon-menu:before {
-    content: "\e907";
+  content: "\e907";
 }
-
 .icon-trim:before {
-    content: "\e908";
+  content: "\e908";
 }
-
 .icon-whatsapp:before {
-    content: "\e909";
+  content: "\e909";
 }
-
 .icon-woman-hair:before {
-    content: "\e90a";
+  content: "\e90a";
 }
-
 .icon-youtube:before {
-    content: "\e90b";
+  content: "\e90b";
 }
-
 .icon-phone:before {
-    content: "\e90c";
+  content: "\e90c";
+}
+.icon-icons8-dance-64:before {
+  content: "\e90d";
+}
+.icon-icons8-gym-64:before {
+  content: "\e90e";
+}
+.icon-icons8-sparring-50:before {
+  content: "\e90f";
 }
